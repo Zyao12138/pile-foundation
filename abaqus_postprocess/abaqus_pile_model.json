@@ -1,0 +1,73 @@
+{
+    "pile_property": {
+        "geometry": {
+            "D_pile_m": 0.8,
+            "L_pile_m": 29.0,
+            "cover_thickness_m": 0.06
+        },
+        "rebar": {
+            "main_rebar_n": 24,
+            "main_rebar_d_m": 0.018,
+            "stirrup_d_m": 0.012,
+            "stirrup_s_dense_m": 0.1,
+            "stirrup_s_norm_m": 0.2,
+            "dense_zone_length_m": 4.0
+        },
+        "concrete_material": {
+            "fc_MPa": 19.1,
+            "ft_MPa": 1.71,
+            "Ec_MPa": 32500.0
+        }
+    },
+    "soil_layers": [
+        {
+            "name": "① 耕土",
+            "thickness_m": 0.5,
+            "density_kN_m3": 17.5,
+            "elastic_modulus_MPa": 2.5,
+            "poisson_ratio": 0.35,
+            "cohesion_kPa": 10.0,
+            "friction_angle_deg": 10.0,
+            "qsik_kPa": 0,
+            "qpk_kPa": 0
+        },
+        {
+            "name": "② 粉质黏土",
+            "thickness_m": 6.0,
+            "density_kN_m3": 19.2,
+            "elastic_modulus_MPa": 7.5,
+            "poisson_ratio": 0.32,
+            "cohesion_kPa": 25.0,
+            "friction_angle_deg": 18.0,
+            "qsik_kPa": 50,
+            "qpk_kPa": 0
+        },
+        {
+            "name": "③ 黏土",
+            "thickness_m": 16.6,
+            "density_kN_m3": 19.8,
+            "elastic_modulus_MPa": 12.0,
+            "poisson_ratio": 0.3,
+            "cohesion_kPa": 45.0,
+            "friction_angle_deg": 20.0,
+            "qsik_kPa": 70,
+            "qpk_kPa": 0
+        },
+        {
+            "name": "④ 黏土",
+            "thickness_m": 11.9,
+            "density_kN_m3": 20.5,
+            "elastic_modulus_MPa": 16.0,
+            "poisson_ratio": 0.28,
+            "cohesion_kPa": 55.0,
+            "friction_angle_deg": 22.0,
+            "qsik_kPa": 85,
+            "qpk_kPa": 2200
+        }
+    ],
+    "critical_loads_uls": {
+        "max_compression_kN": 3147.83,
+        "max_tension_kN": -1724.66,
+        "max_shear_kN": 67.92
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "Metadata": {
+        "Project": "风机基础多目标宏观寻优输出报告",
+        "Timestamp": "2026-09-22 17:02:34"
+    },
+    "Boundary_Conditions": {
+        "Limit_M_kNm": 185957.1,
+        "Limit_N_kN": 7918.5
+    },
+    "Foundation_Geometry": {
+        "Radius_m": 9.5,
+        "Thickness_m": 2.0,
+        "Pedestal_Radius_m": 3.6,
+        "Pedestal_Top_Radius_m": 3.8000000000000003
+    },
+    "Bottom_Plate_Rebar": {
+        "Radial": {
+            "Through_Bars": {
+                "Count": 130,
+                "Diameter_mm": 25.0
+            },
+            "Insert_Bars": {
+                "Count": 130,
+                "Diameter_mm": 25.0
+            },
+            "Reinforced_Bars": {
+                "Count": 130,
+                "Diameter_mm": 32.0
+            },
+            "Outer_Equivalent_Spacing_mm": 180.0
+        },
+        "Circular_Constructive": {
+            "Additional_Layer": "筋仅作构造，不参与排布寻优",
+            "Bottom_Layer": "Φ20@200mm"
+        }
+    },
+    "Top_Plate_Rebar": {
+        "Radial": {
+            "Through_Bars": {
+                "Count": 100,
+                "Diameter_mm": 25.0
+            },
+            "Insert_Bars": {
+                "Count": 100,
+                "Diameter_mm": 25.0
+            },
+            "Outer_Equivalent_Spacing_mm": 294.0
+        },
+        "Circular_Constructive": {
+            "Spec": "Φ20@100mm"
+        }
+    },
+    "Anchor_Cage": {
+        "PCD_in_m": 4.8,
+        "PCD_out_m": 5.2,
+        "N_per_ring": 90,
+        "N_total": 180,
+        "Bolt_Type": "M48",
+        "Bolt_D_mm": 48.0,
+        "d_sleeve_mm": 65.0
+    },
+    "Optimization_Summary": {
+        "Total_Cost_RMB": 2173835.7448844924
+    }
+}

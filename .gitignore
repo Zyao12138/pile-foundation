@@ -1,0 +1,44 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Test, coverage, and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Logs and temporary files
+*.log
+*.err
+*.tmp
+*.bak
+~$*
+
+# Generated experiment outputs and local working copies
+experiments*/
+multi_run_results/
+backups/
+_anchor_merge_review/
+
+# Local archive copies
+*.zip
+
